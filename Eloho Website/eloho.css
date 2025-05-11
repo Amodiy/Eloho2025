@@ -1,0 +1,37 @@
+p{
+    margin-bottom: -25px;
+    margin-top: -20px;
+    border: 3px solid  rgb(226, 163, 226);
+    background-color:  rgb(226, 163, 226);
+    border-radius: 50px;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: aliceblue;
+}
+body{
+    background: linear-gradient(rgb(233, 105, 233),rgb(243, 225, 241));
+}
+h1{
+        text-align: center;
+        color: white;
+        font-size: 48px;
+        animation: bounce 1s infinite;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+      }
+      
+      @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateY(0);
+        }            
+         
+}
